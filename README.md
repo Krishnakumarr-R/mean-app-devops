@@ -51,7 +51,7 @@
                         ┌─────────────────────────────────┐
                         │         AWS EC2 (Ubuntu)        │
                         │                                 │
-Internet ──► Port 80 ──►│  ┌─────────────────────────┐    │
+Internet ──► Port 80 ──►│  ┌──────────────────────────┐   │
                         │  │   Nginx Reverse Proxy    │   │
                         │  └────────┬────────┬────────┘   │
                         │           │        │            │
@@ -266,7 +266,7 @@ docker compose version
 ### Step 4 — Clone repo on VM and first deploy
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git ~/mean-app
+git clone https://github.com/Krishnakumarr-R/mean-app-devops.git ~/mean-app
 cd ~/mean-app
 docker compose up -d
 docker compose ps
